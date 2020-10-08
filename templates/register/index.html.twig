@@ -6,12 +6,13 @@
     <div class="login-page">
         <div class="form">
             <form class="register-form">
-                <input type="text" placeholder="name" />
-                <input type="password" placeholder="password" />
-                <input type="text" placeholder="email address" />
-                <button>create</button>
+                {{ include('user/_form.html.twig') }}
                 <p class="message">Already registered? <a href="/login.html">Sign In</a></p>
             </form>
         </div>
     </div>
 {% endblock %}
+<!--<input type="text" placeholder="name" />
+                <input type="password" placeholder="password" />
+                <input type="text" placeholder="email address" />
+                <button>create</button>
