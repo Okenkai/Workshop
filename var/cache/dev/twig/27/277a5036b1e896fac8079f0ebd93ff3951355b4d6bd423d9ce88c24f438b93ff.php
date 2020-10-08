@@ -150,7 +150,7 @@ class __TwigTemplate_b2126c8fbc8e5fb34af4fa2e376e6fc4c09007e15b4a7396aab06045c1c
             <title>Mon Bio</title>
             <link rel=\"icon\" type=\"image/x-icon\" href=";
         // line 12
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/favicon.ico"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/favicon2.ico"), "html", null, true);
         echo " />
             <!-- Font Awesome icons (free version)-->
             <script src=\"https://use.fontawesome.com/releases/v5.13.0/js/all.js\" crossorigin=\"anonymous\"></script>
@@ -287,7 +287,7 @@ class __TwigTemplate_b2126c8fbc8e5fb34af4fa2e376e6fc4c09007e15b4a7396aab06045c1c
             <meta name=\"description\" content=\"\" />
             <meta name=\"author\" content=\"\" />
             <title>Mon Bio</title>
-            <link rel=\"icon\" type=\"image/x-icon\" href={{ asset(\"assets/img/favicon.ico\")}} />
+            <link rel=\"icon\" type=\"image/x-icon\" href={{ asset(\"assets/img/favicon2.ico\")}} />
             <!-- Font Awesome icons (free version)-->
             <script src=\"https://use.fontawesome.com/releases/v5.13.0/js/all.js\" crossorigin=\"anonymous\"></script>
             <!-- Google fonts-->

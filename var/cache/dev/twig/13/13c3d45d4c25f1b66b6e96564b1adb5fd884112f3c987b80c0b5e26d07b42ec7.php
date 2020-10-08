@@ -91,7 +91,10 @@ class __TwigTemplate_09ccd45c3fb93641bc521cbd306161ab9d67d78fcbd9ca82dd690ddb3a8
                 <input type=\"text\" placeholder=\"username\" />
                 <input type=\"password\" placeholder=\"password\" />
                 <button>login</button>
-                <p class=\"message\">Not registered? <a href=\"/register.html\">Create an account</a></p>
+                <p class=\"message\">Pas encore enregistré ? <a href=\"";
+        // line 12
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("register");
+        echo "\">Créer un compte</a></p>
             </form>
         </div>
     </div>
@@ -116,7 +119,7 @@ class __TwigTemplate_09ccd45c3fb93641bc521cbd306161ab9d67d78fcbd9ca82dd690ddb3a8
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -132,7 +135,7 @@ class __TwigTemplate_09ccd45c3fb93641bc521cbd306161ab9d67d78fcbd9ca82dd690ddb3a8
                 <input type=\"text\" placeholder=\"username\" />
                 <input type=\"password\" placeholder=\"password\" />
                 <button>login</button>
-                <p class=\"message\">Not registered? <a href=\"/register.html\">Create an account</a></p>
+                <p class=\"message\">Pas encore enregistré ? <a href=\"{{path('register')}}\">Créer un compte</a></p>
             </form>
         </div>
     </div>

@@ -1,7 +1,30 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello RestaurantController!{% endblock %}
-
 {% block body %}
+
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 my-3">
+        {% for entreprise in entreprises %}
+            
+            <div class="container-fluid">
+            <hr/>
+                {{ entreprise.nom }}<br/>
+                {{ entreprise.Adresse }}<br/>
+                {{ entreprise.WebLink }}<br/>
+                {{ entreprise.Description }}<br/>
+                <a href="{{ path('entreprise_show', {'id': entreprise.id}) }}">
+                    {{ entreprise.Image }}
+                </a>
+                <br/>
+                <hr>
+            </div>
+            <br/>
+        {% else %}
+            <tr>
+                <td colspan="7">no records found</td>
+            </tr>
+        {% endfor %}
 
 {% endblock %}

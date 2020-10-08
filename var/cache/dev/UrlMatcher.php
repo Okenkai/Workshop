@@ -20,7 +20,7 @@ return [
         '/login' => [[['_route' => 'login', '_controller' => 'App\\Controller\\LoginController::index'], null, null, null, false, false, null]],
         '/magasinBio' => [[['_route' => 'magasinbio', '_controller' => 'App\\Controller\\MagasinbioController::index'], null, null, null, false, false, null]],
         '/parrainage' => [[['_route' => 'parrainage', '_controller' => 'App\\Controller\\ParrainageController::index'], null, null, null, false, false, null]],
-        '/register' => [[['_route' => 'register', '_controller' => 'App\\Controller\\RegisterController::index'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
+        '/register' => [[['_route' => 'register', '_controller' => 'App\\Controller\\RegisterController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
         '/restaurant' => [[['_route' => 'restaurant', '_controller' => 'App\\Controller\\RestaurantController::index'], null, null, null, false, false, null]],
         '/user' => [[['_route' => 'user_index', '_controller' => 'App\\Controller\\UserController::index'], null, ['GET' => 0], null, true, false, null]],
         '/user/new' => [[['_route' => 'user_new', '_controller' => 'App\\Controller\\UserController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],

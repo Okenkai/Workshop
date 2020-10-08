@@ -2,12 +2,13 @@
 
 {% block title %}Hello RegisterController!{% endblock %}
 
+            
 {% block body %}
     <div class="login-page">
         <div class="form">
             <form class="register-form">
                 {{ include('user/_form.html.twig') }}
-                <p class="message">Already registered? <a href="/login.html">Sign In</a></p>
+                <p class="message">Déja enregistré ? <a href="{{path('login')}}">Connexion</a></p>
             </form>
         </div>
     </div>

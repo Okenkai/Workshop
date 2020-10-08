@@ -25,7 +25,7 @@ return [
     'login' => [[], ['_controller' => 'App\\Controller\\LoginController::index'], [], [['text', '/login']], [], []],
     'magasinbio' => [[], ['_controller' => 'App\\Controller\\MagasinbioController::index'], [], [['text', '/magasinBio']], [], []],
     'parrainage' => [[], ['_controller' => 'App\\Controller\\ParrainageController::index'], [], [['text', '/parrainage']], [], []],
-    'register' => [[], ['_controller' => 'App\\Controller\\RegisterController::index'], [], [['text', '/register']], [], []],
+    'register' => [[], ['_controller' => 'App\\Controller\\RegisterController::new'], [], [['text', '/register']], [], []],
     'restaurant' => [[], ['_controller' => 'App\\Controller\\RestaurantController::index'], [], [['text', '/restaurant']], [], []],
     'user_index' => [[], ['_controller' => 'App\\Controller\\UserController::index'], [], [['text', '/user/']], [], []],
     'user_new' => [[], ['_controller' => 'App\\Controller\\UserController::new'], [], [['text', '/user/new']], [], []],

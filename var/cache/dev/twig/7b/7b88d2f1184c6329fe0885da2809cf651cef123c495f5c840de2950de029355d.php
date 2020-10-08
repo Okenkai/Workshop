@@ -74,7 +74,7 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
 
     }
 
-    // line 5
+    // line 6
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -84,15 +84,18 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
+        // line 7
         echo "    <div class=\"login-page\">
         <div class=\"form\">
             <form class=\"register-form\">
                 ";
-        // line 9
+        // line 10
         echo twig_include($this->env, $context, "user/_form.html.twig");
         echo "
-                <p class=\"message\">Already registered? <a href=\"/login.html\">Sign In</a></p>
+                <p class=\"message\">Déja enregistré ? <a href=\"";
+        // line 11
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("login");
+        echo "\">Connexion</a></p>
             </form>
         </div>
     </div>
@@ -121,7 +124,7 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
 
     public function getDebugInfo()
     {
-        return array (  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  97 => 11,  93 => 10,  88 => 7,  78 => 6,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -130,12 +133,13 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
 
 {% block title %}Hello RegisterController!{% endblock %}
 
+            
 {% block body %}
     <div class=\"login-page\">
         <div class=\"form\">
             <form class=\"register-form\">
                 {{ include('user/_form.html.twig') }}
-                <p class=\"message\">Already registered? <a href=\"/login.html\">Sign In</a></p>
+                <p class=\"message\">Déja enregistré ? <a href=\"{{path('login')}}\">Connexion</a></p>
             </form>
         </div>
     </div>
