@@ -17,8 +17,11 @@
             <link href={{ asset("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic")}} rel="stylesheet" type="text/css" />
             <link href={{ asset("https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700")}} rel="stylesheet" type="text/css" />
             <!-- Core theme CSS (includes Bootstrap)-->
+            {% if app.request.attributes.get('_route') starts with 'login' or app.request.attributes.get('_route') starts with 'register'  %}
             <link href={{ asset("css/loginStyle.css")}} rel="stylesheet" />
+            {% else %}
             <link href={{ asset("css/styles.css")}} rel="stylesheet" />
+            {% endif %}
         {% endblock %}
     </head>
     <body>
