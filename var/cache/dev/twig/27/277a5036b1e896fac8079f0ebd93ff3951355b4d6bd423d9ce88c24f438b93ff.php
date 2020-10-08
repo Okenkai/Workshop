@@ -74,7 +74,7 @@ class __TwigTemplate_b2126c8fbc8e5fb34af4fa2e376e6fc4c09007e15b4a7396aab06045c1c
                 </button>
                 <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">
                     <ul class=\"navbar-nav text-uppercase ml-auto\">
-                    <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/\">Acceuil</a></li>
+                    <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/\">Accueil</a></li>
                         <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/magasinBio\">Magasins bio</a></li>
                         <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/enseigne\">Enseignes Eco-responsable</a></li>
                         <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"restaurant\">Restaurant bio</a></li>
@@ -170,11 +170,11 @@ class __TwigTemplate_b2126c8fbc8e5fb34af4fa2e376e6fc4c09007e15b4a7396aab06045c1c
             <!-- Core theme CSS (includes Bootstrap)-->
             <link href=";
         // line 20
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/styles.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/loginStyle.css"), "html", null, true);
         echo " rel=\"stylesheet\" />
             <link href=";
         // line 21
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/loginStyle.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/styles.css"), "html", null, true);
         echo " rel=\"stylesheet\" />
         ";
         
@@ -287,8 +287,8 @@ class __TwigTemplate_b2126c8fbc8e5fb34af4fa2e376e6fc4c09007e15b4a7396aab06045c1c
             <link href={{ asset(\"https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic\")}} rel=\"stylesheet\" type=\"text/css\" />
             <link href={{ asset(\"https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700\")}} rel=\"stylesheet\" type=\"text/css\" />
             <!-- Core theme CSS (includes Bootstrap)-->
-            <link href={{ asset(\"css/styles.css\")}} rel=\"stylesheet\" />
             <link href={{ asset(\"css/loginStyle.css\")}} rel=\"stylesheet\" />
+            <link href={{ asset(\"css/styles.css\")}} rel=\"stylesheet\" />
         {% endblock %}
     </head>
     <body>
@@ -303,7 +303,7 @@ class __TwigTemplate_b2126c8fbc8e5fb34af4fa2e376e6fc4c09007e15b4a7396aab06045c1c
                 </button>
                 <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">
                     <ul class=\"navbar-nav text-uppercase ml-auto\">
-                    <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/\">Acceuil</a></li>
+                    <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/\">Accueil</a></li>
                         <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/magasinBio\">Magasins bio</a></li>
                         <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"/enseigne\">Enseignes Eco-responsable</a></li>
                         <li class=\"nav-item\"><a class=\"nav-link js-scroll-trigger\" href=\"restaurant\">Restaurant bio</a></li>

@@ -108,3 +108,17 @@ e4a6d5,127.0.0.1,GET,http://127.0.0.1:8000/login,1602143901,,200
 33fde3,127.0.0.1,GET,http://127.0.0.1:8000/login,1602143938,,200
 2bbba6,127.0.0.1,GET,http://localhost:8000/,1602144820,,200
 616592,127.0.0.1,GET,http://localhost:8000/,1602144888,,200
+a56b4a,127.0.0.1,GET,http://localhost:8000/register,1602145513,8ace0d,500
+8ace0d,127.0.0.1,GET,http://localhost:8000/register,1602145513,,500
+caea0e,127.0.0.1,GET,http://localhost:8000/register,1602145576,d6c254,500
+d6c254,127.0.0.1,GET,http://localhost:8000/register,1602145576,,500
+e2bec3,127.0.0.1,GET,http://localhost:8000/register,1602145938,,200
+b2f3ae,127.0.0.1,GET,http://localhost:8000/register,1602146006,200e11,500
+200e11,127.0.0.1,GET,http://localhost:8000/register,1602146006,,500
+1340df,127.0.0.1,GET,http://localhost:8000/register,1602146025,,200
+fbb30f,127.0.0.1,GET,http://localhost:8000/,1602146112,,200
+348b5c,127.0.0.1,GET,http://localhost:8000/magasinBio,1602146292,,200
+6d585c,127.0.0.1,GET,http://localhost:8000/enseigne,1602146294,,200
+0d6da4,127.0.0.1,GET,http://localhost:8000/magasinBio,1602146318,,200
+2080a3,127.0.0.1,GET,http://localhost:8000/magasinBio,1602146363,,200
+c2542a,127.0.0.1,GET,http://localhost:8000/,1602146367,,200

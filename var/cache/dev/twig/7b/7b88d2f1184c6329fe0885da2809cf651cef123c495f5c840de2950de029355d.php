@@ -88,14 +88,18 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
         echo "    <div class=\"login-page\">
         <div class=\"form\">
             <form class=\"register-form\">
-                <input type=\"text\" placeholder=\"name\" />
-                <input type=\"password\" placeholder=\"password\" />
-                <input type=\"text\" placeholder=\"email address\" />
-                <button>create</button>
+                ";
+        // line 9
+        echo twig_include($this->env, $context, "user/_form.html.twig");
+        echo "
                 <p class=\"message\">Already registered? <a href=\"/login.html\">Sign In</a></p>
             </form>
         </div>
     </div>
+<!--<input type=\"text\" placeholder=\"name\" />
+                <input type=\"password\" placeholder=\"password\" />
+                <input type=\"text\" placeholder=\"email address\" />
+                <button>create</button>-->
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -117,7 +121,7 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -130,14 +134,15 @@ class __TwigTemplate_3a80086a1128dacd15461570e3238b328985a65b5f13e2d8861a2d0c3b4
     <div class=\"login-page\">
         <div class=\"form\">
             <form class=\"register-form\">
-                <input type=\"text\" placeholder=\"name\" />
-                <input type=\"password\" placeholder=\"password\" />
-                <input type=\"text\" placeholder=\"email address\" />
-                <button>create</button>
+                {{ include('user/_form.html.twig') }}
                 <p class=\"message\">Already registered? <a href=\"/login.html\">Sign In</a></p>
             </form>
         </div>
     </div>
+<!--<input type=\"text\" placeholder=\"name\" />
+                <input type=\"password\" placeholder=\"password\" />
+                <input type=\"text\" placeholder=\"email address\" />
+                <button>create</button>-->
 {% endblock %}
 ", "register/index.html.twig", "/home/alex/symfonyWorkspace/WorkshopB3/templates/register/index.html.twig");
     }
